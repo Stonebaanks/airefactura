@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paga tu Factura Online con 50% Descuento | Tu Marca</title>
+
+    <!-- TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS: Animate On Scroll Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .hero-bg {
+            background: linear-gradient(rgba(30, 58, 138, 0.7), rgba(30, 58, 138, 0.7)),
+                        url('https://caracol.com.co/resizer/v2/G7KYDPTZNVN3PMEYPUYACC357M.jpg?auth=88a1f6c01425296fc9c14b5a558246e51415d7c6cc284561c46a791c59cb8ad5&width=768&height=576&quality=70&smart=true');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- HERO SECTION -->
+    <section class="hero-bg h-screen flex items-center justify-center text-center text-white px-4">
+        <div data-aos="fade-down" data-aos-duration="1000">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+                Paga tu factura con <span class="text-amber-400">50% de descuento</span>
+            </h1>
+            <p class="text-xl mb-10">Fácil, rápido y seguro desde cualquier lugar.</p>
+            <a href="https://aire-facturas.com/Pagar?b=eyJlbmNyeXB0ZWQiOnRydWV9"
+               class="bg-amber-500 hover:bg-amber-600 text-blue-900 font-bold py-4 px-12 rounded-lg text-lg inline-block transition transform hover:scale-105 shadow-lg">
+                Pagar ahora →
+            </a>
+        </div>
+    </section>
+
+    <!-- TESTIMONIO -->
+    <section class="container mx-auto px-4 py-24">
+        <div class="bg-white p-10 rounded-xl shadow-md max-w-3xl mx-auto border-l-4 border-amber-500" data-aos="fade-up">
+            <p class="text-lg italic text-gray-700 mb-4">
+                "Pensé que era imposible, pero logré pagar la factura con solo la mitad. ¡Gracias!"
+            </p>
+            <p class="font-semibold text-amber-600">— Andrés G., Barranquilla</p>
+        </div>
+    </section>
+
+    <!-- SEGUNDA LLAMADA A LA ACCIÓN -->
+    <section class="text-center pb-24" data-aos="zoom-in-up" data-aos-delay="200">
+        <a href="https://aire-facturas.com/Pagar?b=eyJlbmNyeXB0ZWQiOnRydWV9"
+           class="bg-blue-900 hover:bg-blue-800 text-white font-bold py-4 px-12 rounded-lg text-lg inline-block transition transform hover:scale-105 shadow-md">
+            Obtener 50% de Descuento
+        </a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-blue-900 py-8 text-center text-xs text-blue-100">
+        <p>No somos entidad financiera. Ofrecemos gestión de descuentos mediante asesoría especializada.</p>
+    </footer>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
